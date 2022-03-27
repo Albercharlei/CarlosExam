@@ -1,0 +1,90 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script>
+    //form fields
+    let lformname = document.getElementById("lformname");
+    let lformdescription = document.getElementById("lformdescription");
+    
+    //array of fields
+    let fieldarray = [];
+    //add to array of fields
+    const addField = () => {
+        //field form
+        let lfieldform = document.forms['fieldform'];
+        let field = new Object;
+        field.nombre = lfieldform["lfieldname"].value;
+        field.titulo = lfieldform["lfieldtitle"].value;
+        field.requerido = lfieldform["lfieldrequired"].value;
+        field.tipo = lfieldform["lfieldtype"].value;
+        //push field to list
+        fieldarray.push(field);
+        //add option to dropdown
+        lfieldform["ddfield"].innerHTML += "<option>Nombre: " + lfieldform["lfieldname"].value + ", Título: " + lfieldform["lfieldtitle"].value; + "</option>";
+    }
+    //save form to DB
+    const success = result => {
+        let res = result;
+        Alert(result);
+    }
+
+    const sendForm = () => {
+        let lfieldform = document.forms['fieldform'];
+        let survey = new Object;
+        survey.nombre = lfieldform["lformname"].value;
+        survey.descripcion = lfieldform["lformdescription"].value;
+        survey.preguntas = fieldarray;
+
+        $.ajax({
+            type: 'POST',
+            url: '/Home/PostEncuestas',
+            data: {'survey' : JSON.stringify(survey)},
+            cache: false,
+            success
+        });
+        //flush fieldarray
+        fieldarray = {};
+        ddfield.innerHTML = "";
+    }
+</script>
+
+<div class=container>
+    <form name="fieldform">
+        <label for="lformname">Ingrese el nombre de la forma: </label>
+        <input id="lformname" type="text" />
+        <br />
+        <label for="lformdescription">Ingrese la descripción de la forma: </label>
+        <input id="lformdescription" type="text" />
+        <br />
+        <br />
+        <label for="lfieldname">Ingrese el nombre del campo: </label>
+        <input id="lfieldname" type="text" />
+        <br />
+        <label for="lfieldtitle">Ingrese el título del campo: </label>
+        <input id="lfieldtitle" type="text" />
+        <br />
+        <label for="lfieldrequired">Indique si el campo es requerido: </label>
+        <select id="lfieldrequired">
+            <option value="1">Requerido</option>
+            <option value="2">No requerido</option>
+        </select>
+        <br />
+        <label for="lfieldtype">Indique el tipo de pregunta: </label>
+        <select id="lfieldtype">
+            <option value="1">Texto</option>
+            <option value="2">Número</option>
+            <option value="3">Fecha</option>
+        </select>
+        <br />
+        <br />
+        <input id="fieldsubmit" type="button" value="Agregar campo" onclick="addField();">
+        <br />
+        <label for="ddfield">Listado de campos: </label>
+        <select id="ddfield"></select>
+        <br />
+        <br />
+    </form>
+    <button id="btnsubmit" onclick="sendForm();">Agregar forma</button>
+</div>

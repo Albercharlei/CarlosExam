@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Realizar";
+}
+
+<h1>Realizar Encuestas</h1>
+<script>
+    //array of forms
+    let encuestas = [];
+    //dropdown element
+    let listencuestas = document.getElementById("dropdownencuestas");
+    let btnSend = document.getElementById("btnSend");
+    //form description labels
+    let formName = document.getElementById("formName");
+    let formDescription = document.getElementById("formDescription");
+
+    const loadForm = () => {
+        const formDisplay = document.getElementById("formDisplay");
+        let listencuestas = document.getElementById("dropdownencuestas");
+        const formName = document.getElementById("formName");
+        const formDescription = document.getElementById("formDescription");
+        //load form
+        let selectedForm = encuestas[listencuestas.selectedIndex];
+        //set labels of elements
+        formName.innerHTML = "Nombre de la encuesta: " + selectedForm.nombre;
+        formDescription.innerHTML = "Descripción de la encuesta: " + selectedForm.descripcion;
+        //add fiels of form
+        document.getElementById("formDisplay").innerHTML = "";
+
+        selectedForm.preguntas.forEach((pregunta) => {
+            formDisplay.innerHTML += '<label for="' + pregunta.nombre + '">' + pregunta.titulo + ': </label>';
+            let inputType = '';
+            switch (pregunta.tipo) {
+                case 1:
+                    inputType = 'text';
+                    break;
+                case 2:
+                    inputType = 'number';
+                    break;
+                case 3:
+                    inputType = 'date';
+                    break;
+            }
+            formDisplay.innerHTML += `<input id = ${pregunta.nombre} type = ${inputType} required /><br><br>`;
+        });
+
+        //add send button
+        formDisplay.innerHTML += '<input id="btnSend" value="Enviar">';
+    }
+
+    const success = result => {
+        encuestas = [];
+        encuestas = result;
+        //flush all options when reloading
+        document.getElementById("dropdownencuestas").innerHTML = "";
+        //loop through all results
+        encuestas.forEach(function (encuestaactual) {
+            document.getElementById("dropdownencuestas").innerHTML += "<option value=”" + encuestaactual.id.toString() + "”>" + encuestaactual.nombre.toString() + "</option>";
+        });
+        //load first element
+        loadForm()
+    }
+
+    const ready = () => {
+        $.ajax({
+            type: 'GET',
+            url: '/Home/GetEncuestas',
+            data: {},
+            cache: false,
+            success
+        });
+
+    }
+
+    $(document).ready(ready);
+    
+
+</script>
+<div class=container>
+    <label>Seleccione una encuesta</label>
+
+    <select id="dropdownencuestas" onchange="loadForm();"></select>
+
+    <div class=row>
+        <div class=col>
+            <label id="formName"></label>
+        </div>
+        <div class=col>
+            <label id="formDescription"></label>
+        </div>
+    </div>
+
+    <div class=row>
+        <form id="formDisplay">
+        </form>
+    </div>
+
+
+</div>

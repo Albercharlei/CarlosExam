@@ -1,0 +1,81 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<script>
+    //array of forms
+    let encuestas = [];
+    //dropdown element
+    let listencuestas = document.getElementById("dropdownencuestas");
+    let btnDel = document.getElementById("btnDel");
+    //form description labels
+    let formName = document.getElementById("formName");
+    let formDescription = document.getElementById("formDescription");
+
+    const loadForm = () => {
+        let listencuestas = document.getElementById("dropdownencuestas");
+        const formName = document.getElementById("formName");
+        const formDescription = document.getElementById("formDescription");
+        //load form
+        let selectedForm = encuestas[listencuestas.selectedIndex];
+        //set labels of elements
+        formName.innerHTML = "Nombre de la encuesta: " + selectedForm.nombre;
+        formDescription.innerHTML = "Descripción de la encuesta: " + selectedForm.descripcion;
+
+    }
+
+    const success = result => {
+        encuestas = [];
+        encuestas = result;
+        //flush all options when reloading
+        document.getElementById("dropdownencuestas").innerHTML = "";
+        //loop through all results
+        encuestas.forEach(function (encuestaactual) {
+            document.getElementById("dropdownencuestas").innerHTML += "<option value=”" + encuestaactual.id.toString() + "”>" + encuestaactual.nombre.toString() + "</option>";
+        });
+        //load first element
+        loadForm()
+    }
+
+    const ready = () => {
+        $.ajax({
+            type: 'GET',
+            url: '/Home/GetEncuestas',
+            data: {},
+            cache: false,
+            success
+        });
+
+    }
+
+    $(document).ready(ready);
+
+    const del = () => {
+        let listencuestas = document.getElementById("dropdownencuestas");
+        let selectedForm = encuestas[listencuestas.selectedIndex];
+        $.ajax({
+            type: 'POST',
+            url: '/Home/DelEncuestas',
+            data: {'id' : selectedForm.id},
+            cache: false,
+            success
+        });
+    }
+    
+</script>
+
+<select id="dropdownencuestas" onchange="loadForm();"></select>
+<br />
+<br />
+<div class=row>
+        <div class=col>
+            <label id="formName"></label>
+        </div>
+        <div class=col>
+            <label id="formDescription"></label>
+        </div>
+</div>
+<br />
+<br />
+<button id="btnDel" onclick="del();">Eliminar encuesta</button>

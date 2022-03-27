@@ -1,0 +1,97 @@
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\appsettings.json
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.exe
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.deps.json
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.runtimeconfig.json
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.runtimeconfig.dev.json
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ref\ExamFront.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.pdb
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.Views.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\ExamFront.Views.pdb
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.AssemblyInfoInputs.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.AssemblyInfo.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.csproj.CoreCompileInputs.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.RazorAssemblyInfo.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.RazorAssemblyInfo.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\staticwebassets\ExamFront.StaticWebAssets.Manifest.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\staticwebassets\ExamFront.StaticWebAssets.xml
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\scopedcss\bundle\ExamFront.styles.css
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.TagHelpers.input.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.TagHelpers.output.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.RazorCoreGenerate.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Realizar.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.RazorTargetAssemblyInfo.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.RazorTargetAssemblyInfo.cs
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.Views.pdb
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.csproj.CopyComplete
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ref\ExamFront.dll
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.pdb
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.genruntimeconfig.cache
+C:\Users\caalb.PC-MASTER-RACE\Source\repos\ExamFront\obj\Debug\net5.0\ExamFront.csprojAssemblyReference.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\appsettings.json
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.StaticWebAssets.xml
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.exe
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.deps.json
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.runtimeconfig.json
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.runtimeconfig.dev.json
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.pdb
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.Views.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\ExamFront.Views.pdb
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.csproj.AssemblyReference.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.AssemblyInfoInputs.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.AssemblyInfo.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.RazorAssemblyInfo.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.RazorAssemblyInfo.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\scopedcss\bundle\ExamFront.styles.css
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\staticwebassets\ExamFront.StaticWebAssets.Manifest.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.TagHelpers.input.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.TagHelpers.output.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.RazorCoreGenerate.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Realizar.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.RazorTargetAssemblyInfo.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.RazorTargetAssemblyInfo.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.Views.pdb
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.csproj.CopyComplete
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\refint\ExamFront.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.pdb
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ExamFront.genruntimeconfig.cache
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\ref\ExamFront.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Crear.cshtml.g.cs
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Carlos Avalos\source\repos\EXAM\exam\ExamFront\obj\Debug\net5.0\Razor\Views\Home\Eliminar.cshtml.g.cs
