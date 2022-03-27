@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "99958c29-7cc5-4331-8fd1-35fc488473c1",
+		"name": "TEST API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET REQUEST",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:7176/api/Encuestas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7176",
+					"path": [
+						"api",
+						"Encuestas"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST REQUEST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Nueva encuesta\",\r\n    \"descripcion\": \"Prueba de insercion\",\r\n    \"campos\": [\r\n        {\r\n            \"nombre\": \"nuevo1\",\r\n            \"titulo\": \"titulo nuevo 1\",\r\n            \"requerido\": 0,\r\n            \"tipo\": 0\r\n        },\r\n        {\r\n            \"nombre\": \"nuevo2\",\r\n            \"titulo\": \"titulo nuevo 2\",\r\n            \"requerido\": 1,\r\n            \"tipo\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7176/api/Encuestas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7176",
+					"path": [
+						"api",
+						"Encuestas"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST REQUEST2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"nombre\": \"string\",\n  \"descripcion\": \"string\",\n  \"campos\": [\n    {\n      \"nombre\": \"string\",\n      \"titulo\": \"string\",\n      \"requerido\": 0,\n      \"tipo\": 0\n    }\n  ]\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7176/api/Encuestas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7176",
+					"path": [
+						"api",
+						"Encuestas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
